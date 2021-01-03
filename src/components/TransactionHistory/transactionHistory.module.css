@@ -1,0 +1,18 @@
+.table {
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+}
+.cell {
+  outline: 1px solid rgb(48, 43, 43);
+}
+.row:nth-child(2n) {
+  background: rgb(179, 134, 134);
+}
+.row:nth-child(2n + 1) {
+  background-color: rgb(224, 223, 223);
+}
+.header {
+  background-color: rgb(130, 221, 186);
+  color: rgb(238, 48, 0);
+}
